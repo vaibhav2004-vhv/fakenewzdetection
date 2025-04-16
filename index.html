@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Detector</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">📰 Fake News Detector</div>
+        <ul class="navbar-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <textarea id="newsText" placeholder="Enter news text here..."></textarea>
+        <button onclick="checkNews()">🔍 Analyze</button>
+        <div class="result" id="result"></div>
+
+        <!-- Breaking News Grid Box -->
+        <div class="breaking-news-grid">
+            <div class="news-item">
+                <img src="./temp/PTI02_19_2025_000158A.jpg" alt="Breaking News 1">
+                <p>Delhi new CM announcement LIVE updates: Prasad, OP Dhankar named as BJP's central observers to elect Legislature Party leader</p>
+            </div>
+            <div class="news-item">
+                <img src="./temp/PTI03_02_2023_000281A.jpg" alt="Breaking News 2">
+                <p>EAM Jaishankar to visit South Africa for G20 Foreign Ministers' Meeting</p>
+            </div>
+            <div class="news-item">
+                <img src="./temp/c62fa440-ee9a-11ef-a819-277e390a7a08.jpg.webp" alt="Breaking News 3">
+                <p>Rosenberg: How Putin and Trump shook up the world in a week</p>
+            </div>
+            <div class="news-item">
+                <img src="./temp/Trump_1739969762452_1739969762975.jpg" alt="Breaking News 4">
+                <p>Donald Trump threatens 25% tariffs on cars, pharmaceuticals and semiconductors</p>
+            </div>
+            <div class="news-item">
+                <img src="./temp/4otlkr4g_team-bayern-munich-afp_625x300_19_February_25.webp" alt="Breaking News 5">
+                <p>Bayern Edge Out Celtic To Reach Champions League Last 16 As Milan Are Dumped Out</p>
+            </div>
+            <div class="news-item">
+                <img src="./temp/ljb9dai8_india-bcci_625x300_12_February_25.webp" alt="Breaking News 6">
+                <p>India vs Bangladesh, Champions Trophy: Dubai Pitch Report, Umpires, Squads, Where To Watch</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Fake News Detector. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
